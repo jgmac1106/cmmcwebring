@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-labelledby="title desc">
+  <title id="title">CMMC Webring</title>
+  <desc id="desc">A retro green and black CMMC Webring badge</desc>
+  <rect width="88" height="31" fill="#071610"/>
+  <rect x="1" y="1" width="86" height="29" fill="none" stroke="#36f19a" stroke-width="2"/>
+  <path d="M11 4v23M4 15.5h14M6 8l10 15M16 8L6 23" stroke="#ff65d4" stroke-width="1" opacity=".85"/>
+  <circle cx="11" cy="15.5" r="4" fill="#071610" stroke="#36f19a"/>
+  <text x="23" y="13" fill="#36f19a" font-family="monospace" font-size="9" font-weight="700">CMMC</text>
+  <text x="23" y="23" fill="#eefdf6" font-family="monospace" font-size="8">WEBRING</text>
+</svg>
