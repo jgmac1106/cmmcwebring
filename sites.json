@@ -1,0 +1,10 @@
+[
+  {
+    "id": "drmac",
+    "name": "Dr. Mac’s Cybersecurity Brief",
+    "url": "https://www.drmacscybersecuritybrief.com/",
+    "feed": "https://www.drmacscybersecuritybrief.com/feed.xml",
+    "description": "Practical CMMC, NIST SP 800-171, and cybersecurity guidance for small organizations.",
+    "topics": ["CMMC", "NIST-800-171", "small-business-security"]
+  }
+]

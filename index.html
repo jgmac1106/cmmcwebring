@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self'; img-src 'self' https:; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'self'"
+    >
+    <meta
+      name="description"
+      content="A human-curated ring of independent writers sharing practical CMMC and cybersecurity guidance."
+    >
+    <title>CMMC Webring</title>
+    <link rel="icon" href="assets/badge.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <img
+        class="ring-badge"
+        src="assets/badge.svg"
+        width="88"
+        height="31"
+        alt="CMMC Webring"
+      >
+      <div>
+        <p class="eyebrow">Independent sites. Human voices.</p>
+        <h1>CMMC Webring</h1>
+      </div>
+    </header>
+
+    <div class="ticker" role="note">
+      <span>★ Practical CMMC guidance ★ NIST SP 800-171 ★ Small-business security ★ Open web ★</span>
+    </div>
+
+    <main id="main">
+      <section class="hero panel" aria-labelledby="welcome-title">
+        <p class="status-line"><span aria-hidden="true">●</span> RING STATUS: ONLINE</p>
+        <h2 id="welcome-title">Take the next exit off the algorithm.</h2>
+        <p>
+          This webring connects independent bloggers who write useful, original material about
+          CMMC, NIST SP 800-171, and practical cybersecurity. Pick a site, jump somewhere random,
+          or keep following “next” until you come home again.
+        </p>
+        <div class="button-row">
+          <a class="button" href="go.html?dir=random">Visit a random member</a>
+          <a class="button button-secondary" href="join.html">Join the ring</a>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="directory-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">THE DIRECTORY</p>
+            <h2 id="directory-title">Ring members</h2>
+          </div>
+          <p id="member-count" class="counter" aria-live="polite">Loading…</p>
+        </div>
+        <div id="directory" class="directory" aria-live="polite">
+          <p>Calling the ring server…</p>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="code-title">
+        <p class="kicker">MEMBER TOOLKIT</p>
+        <h2 id="code-title">Put the ring on your site</h2>
+        <p>
+          Approved members receive a permanent site ID. Add this plain HTML wherever you want the
+          ring navigation to appear. It loads no third-party JavaScript.
+        </p>
+        <pre class="code-box"><code id="member-code">Select a member above to generate its navigation code.</code></pre>
+        <button id="copy-code" class="button" type="button" disabled>Copy HTML</button>
+        <p id="copy-status" class="small" role="status"></p>
+      </section>
+
+      <section class="panel manifesto" aria-labelledby="why-title">
+        <p class="kicker">WHY A WEBRING?</p>
+        <h2 id="why-title">Discovery should feel like wandering.</h2>
+        <p>
+          Search engines reward whoever can win the ranking. Social networks reward whatever keeps
+          us scrolling. A webring is smaller and stranger: people recommending people, one link at
+          a time.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Hand-curated on the open web ·
+        <a href="https://github.com/jgmac1106/cmmcwebring">View the source</a>
+      </p>
+    </footer>
+  </body>
+</html>

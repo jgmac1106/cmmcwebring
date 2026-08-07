@@ -1,0 +1,65 @@
+name: Join the CMMC Webring
+description: Apply to add an independent CMMC or cybersecurity blog to the ring.
+title: "Join request: [SITE NAME]"
+labels: [membership]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the CMMC Webring. Please complete every field. Applications are reviewed by a human.
+  - type: input
+    id: site-name
+    attributes:
+      label: Site name
+      placeholder: Example Security Notes
+    validations:
+      required: true
+  - type: input
+    id: site-url
+    attributes:
+      label: HTTPS site URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: input
+    id: feed-url
+    attributes:
+      label: RSS or Atom feed URL
+      placeholder: https://example.com/feed.xml
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: In one or two sentences, what do you write about?
+    validations:
+      required: true
+  - type: input
+    id: topics
+    attributes:
+      label: Main topics
+      placeholder: CMMC, NIST SP 800-171, small-business security
+    validations:
+      required: true
+  - type: input
+    id: recent-post
+    attributes:
+      label: Recent representative post
+      description: Link one substantive post published within the last 180 days.
+      placeholder: https://example.com/posts/example
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Membership criteria
+      options:
+        - label: My site primarily publishes original, human-directed writing.
+          required: true
+        - label: My site uses HTTPS and has a working RSS or Atom feed.
+          required: true
+        - label: I will install the webring navigation before activation.
+          required: true
+        - label: I clearly disclose sponsored or affiliate material.
+          required: true
