@@ -40,7 +40,9 @@ function renderMember(site) {
 
   const actions = document.createElement("div");
   actions.className = "member-actions";
-  actions.append(externalLink(site.feed, "RSS feed"));
+  if (site.feed) {
+    actions.append(externalLink(site.feed, "RSS feed"));
+  }
 
   const codeButton = document.createElement("button");
   codeButton.type = "button";
