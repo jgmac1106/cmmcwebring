@@ -7,6 +7,7 @@ Pages.
 ## What is included
 
 - A searchable-by-eye member directory with a deliberately old-web visual style
+- RSS links for members that publish a feed
 - Previous, next, and random ring navigation
 - A copyable, no-third-party-JavaScript member snippet
 - An 88×31 badge
@@ -57,7 +58,8 @@ Add one object to `sites.json`:
 ```
 
 Member IDs are permanent. Reordering `sites.json` safely changes who is previous and next because
-all navigation passes through the ring hub.
+all navigation passes through the ring hub. The `feed` field is optional for sites that do not
+publish an RSS or Atom feed.
 
 ## Member navigation
 
