@@ -36,6 +36,12 @@ test("validates and normalizes a registry", () => {
   assert.equal(sites[0].url, "https://alpha.example/");
 });
 
+test("accepts a member without an RSS feed", () => {
+  const { feed, ...withoutFeed } = rawSites[0];
+  const [site] = validateSites([withoutFeed]);
+  assert.equal(site.feed, null);
+});
+
 test("next wraps from the final site to the first", () => {
   const sites = validateSites(rawSites);
   assert.equal(destinationFor(sites, "charlie", "next").id, "alpha");

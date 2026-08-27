@@ -6,5 +6,35 @@
     "feed": "https://www.drmacscybersecuritybrief.com/feed.xml",
     "description": "Practical CMMC, NIST SP 800-171, and cybersecurity guidance for small organizations.",
     "topics": ["CMMC", "NIST-800-171", "small-business-security"]
+  },
+  {
+    "id": "cmmc-audit-preparation",
+    "name": "CMMC Audit Preparation",
+    "url": "https://www.cmmcaudit.org/",
+    "feed": "https://www.cmmcaudit.org/feed/",
+    "description": "Community articles and resources for CMMC audits, NIST SP 800-171 compliance, and assessment preparation.",
+    "topics": ["CMMC", "NIST-800-171", "assessment-preparation"]
+  },
+  {
+    "id": "the-net-effect-cmmc-update",
+    "name": "The Net Effect — CMMC Update",
+    "url": "https://www.theneteffect.com/cmmc/archive.php",
+    "description": "Glenda R. Snodgrass’s archive of CMMC news, regulatory updates, assessment guidance, and implementation commentary.",
+    "topics": ["CMMC", "NIST-800-171", "regulatory-updates"]
+  },
+  {
+    "id": "defense-cybersecurity-group",
+    "name": "Defense Cybersecurity Group",
+    "url": "https://cybersecgru.com/resources.html#blog",
+    "description": "Plain-language CMMC guidance for Defense Industrial Base contractors on compliance, scoping, and the assessment process.",
+    "topics": ["CMMC", "CUI-scoping", "assessment-readiness"]
+  },
+  {
+    "id": "elysian-technology",
+    "name": "Elysian Technology Blog",
+    "url": "https://elystech.com/blog/",
+    "feed": "https://elystech.com/feed/",
+    "description": "Expert insights on cybersecurity, compliance, cloud infrastructure, and technology operations, including CMMC secure environments.",
+    "topics": ["CMMC", "cybersecurity", "cloud-infrastructure"]
   }
 ]

@@ -54,7 +54,7 @@ export function validateSites(value) {
     }
     urls.add(url);
 
-    const feed = secureUrl(site.feed, `${label} feed`);
+    const feed = site.feed === undefined ? null : secureUrl(site.feed, `${label} feed`);
 
     if (!Array.isArray(site.topics) || site.topics.length === 0) {
       throw new Error(`${label} needs at least one topic.`);
